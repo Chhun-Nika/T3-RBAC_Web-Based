@@ -1,21 +1,13 @@
-# T3-Database_Project: Hospital Management System (HMS)
+# T3-RBAC_Web-Based
 
 ## Introduction
-This is a database project for a Hospital Management System (HMS), developed to manage core hospital operations like patient registration, appointment scheduling, medical records, billing, and staff coordination. The system helps hospitals reduce paperwork, avoid errors, and improve communication by using a centralized and digital solution.
+This web-based RBAC (Role-Based Access Control) system allows only administrators to log in and manage user access through role and privilege assignments. It ensures both application-level control and real MySQL user management.
 <br><br>
 ## Project Structure
 
 Here’s what you’ll find in this repository:
-
-- `pythonScript/` — python scripts to populate the database with sample data.
-- `MySQL_script/` — sql scripts to:
-  - Create tables
-  - Execute queries
-  - Set up roles and permissions
-- `RBAC/` — Web-based Role-Based Access Control system:
-  - `client/` — Frontend built with React.js
-  - `server/` — Backend using Node.js, Express, Sequelize
-- `Report_Slide/` — Final report and presentation slides related to the project.
+- `client/` — Frontend built with React.js
+- `server/` — Backend using Node.js, Express, Sequelize
 <br><br>
 ## Getting Started
 
@@ -24,8 +16,8 @@ Follow these steps to set up and run the web-based RBAC system.
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/Chhun-Nika/T3-Database_Project
-cd RBAC
+git clone https://github.com/Chhun-Nika/T3-RBAC_Web-Based
+cd T3-RBAC_Web-Based
 ```
 
 ### 2. Set up Environment Variables
@@ -71,13 +63,11 @@ Start Frontend
 cd ../client
 npm start
 ```
-## Additional Notes
+## Additional Notes 
+pythonScript and sql script is available in [Repo: T3-Database_Project](https://github.com/Chhun-Nika/T3-Database_Project)
 - Ensure MySQL is installed and running
 - Use the scripts in `MySQL_script/` to set up your database schema and initial roles
 - Use `pythonScript/` to insert sample records
 - The app uses Sequelize ORM and JWT-based authentication
-<br><br>
-## Project Report and Slide
-Report and slide are in PDF format inside `Report_Slide/` folder
 
 
